@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TP_lab5_3_Pogoda.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>841F4C201EA135660051A6E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>841F4C3C1EA135660051A6E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>841F4C471EA135660051A6E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

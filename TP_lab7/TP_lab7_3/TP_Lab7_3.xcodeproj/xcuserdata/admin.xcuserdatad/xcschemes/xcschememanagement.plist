@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>TP_Lab7_3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>8461AD651EB3C43D0082147A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8461AD791EB3C43E0082147A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8461AD841EB3C43E0082147A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

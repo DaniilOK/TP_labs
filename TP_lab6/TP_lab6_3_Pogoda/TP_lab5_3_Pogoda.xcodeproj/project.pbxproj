@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841F4C261EA135660051A6E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C251EA135660051A6E7 /* main.m */; };
+		841F4C291EA135660051A6E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C281EA135660051A6E7 /* AppDelegate.m */; };
+		841F4C2C1EA135660051A6E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C2B1EA135660051A6E7 /* ViewController.m */; };
+		841F4C2F1EA135660051A6E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F4C2D1EA135660051A6E7 /* Main.storyboard */; };
+		841F4C321EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C301EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodeld */; };
+		841F4C341EA135660051A6E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841F4C331EA135660051A6E7 /* Assets.xcassets */; };
+		841F4C371EA135660051A6E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F4C351EA135660051A6E7 /* LaunchScreen.storyboard */; };
+		841F4C421EA135660051A6E7 /* TP_lab5_3_PogodaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C411EA135660051A6E7 /* TP_lab5_3_PogodaTests.m */; };
+		841F4C4D1EA135660051A6E7 /* TP_lab5_3_PogodaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841F4C4C1EA135660051A6E7 /* TP_lab5_3_PogodaUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841F4C3E1EA135660051A6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841F4C191EA135660051A6E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841F4C201EA135660051A6E7;
+			remoteInfo = TP_lab5_3_Pogoda;
+		};
+		841F4C491EA135660051A6E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841F4C191EA135660051A6E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841F4C201EA135660051A6E7;
+			remoteInfo = TP_lab5_3_Pogoda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		841F4C211EA135660051A6E7 /* TP_lab5_3_Pogoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP_lab5_3_Pogoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F4C251EA135660051A6E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		841F4C271EA135660051A6E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		841F4C281EA135660051A6E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841F4C2A1EA135660051A6E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		841F4C2B1EA135660051A6E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		841F4C2E1EA135660051A6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841F4C311EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TP_lab5_3_Pogoda.xcdatamodel; sourceTree = "<group>"; };
+		841F4C331EA135660051A6E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841F4C361EA135660051A6E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841F4C381EA135660051A6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F4C3D1EA135660051A6E7 /* TP_lab5_3_PogodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP_lab5_3_PogodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F4C411EA135660051A6E7 /* TP_lab5_3_PogodaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP_lab5_3_PogodaTests.m; sourceTree = "<group>"; };
+		841F4C431EA135660051A6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F4C481EA135660051A6E7 /* TP_lab5_3_PogodaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP_lab5_3_PogodaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841F4C4C1EA135660051A6E7 /* TP_lab5_3_PogodaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP_lab5_3_PogodaUITests.m; sourceTree = "<group>"; };
+		841F4C4E1EA135660051A6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841F4C1E1EA135660051A6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C3A1EA135660051A6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C451EA135660051A6E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841F4C181EA135660051A6E7 = {
+			isa = PBXGroup;
+			children = (
+				841F4C231EA135660051A6E7 /* TP_lab5_3_Pogoda */,
+				841F4C401EA135660051A6E7 /* TP_lab5_3_PogodaTests */,
+				841F4C4B1EA135660051A6E7 /* TP_lab5_3_PogodaUITests */,
+				841F4C221EA135660051A6E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841F4C221EA135660051A6E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841F4C211EA135660051A6E7 /* TP_lab5_3_Pogoda.app */,
+				841F4C3D1EA135660051A6E7 /* TP_lab5_3_PogodaTests.xctest */,
+				841F4C481EA135660051A6E7 /* TP_lab5_3_PogodaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841F4C231EA135660051A6E7 /* TP_lab5_3_Pogoda */ = {
+			isa = PBXGroup;
+			children = (
+				841F4C271EA135660051A6E7 /* AppDelegate.h */,
+				841F4C281EA135660051A6E7 /* AppDelegate.m */,
+				841F4C2A1EA135660051A6E7 /* ViewController.h */,
+				841F4C2B1EA135660051A6E7 /* ViewController.m */,
+				841F4C2D1EA135660051A6E7 /* Main.storyboard */,
+				841F4C331EA135660051A6E7 /* Assets.xcassets */,
+				841F4C351EA135660051A6E7 /* LaunchScreen.storyboard */,
+				841F4C381EA135660051A6E7 /* Info.plist */,
+				841F4C301EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodeld */,
+				841F4C241EA135660051A6E7 /* Supporting Files */,
+			);
+			path = TP_lab5_3_Pogoda;
+			sourceTree = "<group>";
+		};
+		841F4C241EA135660051A6E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841F4C251EA135660051A6E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841F4C401EA135660051A6E7 /* TP_lab5_3_PogodaTests */ = {
+			isa = PBXGroup;
+			children = (
+				841F4C411EA135660051A6E7 /* TP_lab5_3_PogodaTests.m */,
+				841F4C431EA135660051A6E7 /* Info.plist */,
+			);
+			path = TP_lab5_3_PogodaTests;
+			sourceTree = "<group>";
+		};
+		841F4C4B1EA135660051A6E7 /* TP_lab5_3_PogodaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				841F4C4C1EA135660051A6E7 /* TP_lab5_3_PogodaUITests.m */,
+				841F4C4E1EA135660051A6E7 /* Info.plist */,
+			);
+			path = TP_lab5_3_PogodaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841F4C201EA135660051A6E7 /* TP_lab5_3_Pogoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F4C511EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_Pogoda" */;
+			buildPhases = (
+				841F4C1D1EA135660051A6E7 /* Sources */,
+				841F4C1E1EA135660051A6E7 /* Frameworks */,
+				841F4C1F1EA135660051A6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TP_lab5_3_Pogoda;
+			productName = TP_lab5_3_Pogoda;
+			productReference = 841F4C211EA135660051A6E7 /* TP_lab5_3_Pogoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		841F4C3C1EA135660051A6E7 /* TP_lab5_3_PogodaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F4C541EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_PogodaTests" */;
+			buildPhases = (
+				841F4C391EA135660051A6E7 /* Sources */,
+				841F4C3A1EA135660051A6E7 /* Frameworks */,
+				841F4C3B1EA135660051A6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841F4C3F1EA135660051A6E7 /* PBXTargetDependency */,
+			);
+			name = TP_lab5_3_PogodaTests;
+			productName = TP_lab5_3_PogodaTests;
+			productReference = 841F4C3D1EA135660051A6E7 /* TP_lab5_3_PogodaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		841F4C471EA135660051A6E7 /* TP_lab5_3_PogodaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841F4C571EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_PogodaUITests" */;
+			buildPhases = (
+				841F4C441EA135660051A6E7 /* Sources */,
+				841F4C451EA135660051A6E7 /* Frameworks */,
+				841F4C461EA135660051A6E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841F4C4A1EA135660051A6E7 /* PBXTargetDependency */,
+			);
+			name = TP_lab5_3_PogodaUITests;
+			productName = TP_lab5_3_PogodaUITests;
+			productReference = 841F4C481EA135660051A6E7 /* TP_lab5_3_PogodaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841F4C191EA135660051A6E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Daniil Boyko";
+				TargetAttributes = {
+					841F4C201EA135660051A6E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					841F4C3C1EA135660051A6E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841F4C201EA135660051A6E7;
+					};
+					841F4C471EA135660051A6E7 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 841F4C201EA135660051A6E7;
+					};
+				};
+			};
+			buildConfigurationList = 841F4C1C1EA135660051A6E7 /* Build configuration list for PBXProject "TP_lab5_3_Pogoda" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841F4C181EA135660051A6E7;
+			productRefGroup = 841F4C221EA135660051A6E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841F4C201EA135660051A6E7 /* TP_lab5_3_Pogoda */,
+				841F4C3C1EA135660051A6E7 /* TP_lab5_3_PogodaTests */,
+				841F4C471EA135660051A6E7 /* TP_lab5_3_PogodaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841F4C1F1EA135660051A6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F4C371EA135660051A6E7 /* LaunchScreen.storyboard in Resources */,
+				841F4C341EA135660051A6E7 /* Assets.xcassets in Resources */,
+				841F4C2F1EA135660051A6E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C3B1EA135660051A6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C461EA135660051A6E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841F4C1D1EA135660051A6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F4C2C1EA135660051A6E7 /* ViewController.m in Sources */,
+				841F4C291EA135660051A6E7 /* AppDelegate.m in Sources */,
+				841F4C261EA135660051A6E7 /* main.m in Sources */,
+				841F4C321EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C391EA135660051A6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F4C421EA135660051A6E7 /* TP_lab5_3_PogodaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		841F4C441EA135660051A6E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841F4C4D1EA135660051A6E7 /* TP_lab5_3_PogodaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841F4C3F1EA135660051A6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841F4C201EA135660051A6E7 /* TP_lab5_3_Pogoda */;
+			targetProxy = 841F4C3E1EA135660051A6E7 /* PBXContainerItemProxy */;
+		};
+		841F4C4A1EA135660051A6E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841F4C201EA135660051A6E7 /* TP_lab5_3_Pogoda */;
+			targetProxy = 841F4C491EA135660051A6E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841F4C2D1EA135660051A6E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F4C2E1EA135660051A6E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841F4C351EA135660051A6E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841F4C361EA135660051A6E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841F4C4F1EA135660051A6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841F4C501EA135660051A6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841F4C521EA135660051A6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TP_lab5_3_Pogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-Pogoda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		841F4C531EA135660051A6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TP_lab5_3_Pogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-Pogoda";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		841F4C551EA135660051A6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TP_lab5_3_PogodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-PogodaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_lab5_3_Pogoda.app/TP_lab5_3_Pogoda";
+			};
+			name = Debug;
+		};
+		841F4C561EA135660051A6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TP_lab5_3_PogodaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-PogodaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TP_lab5_3_Pogoda.app/TP_lab5_3_Pogoda";
+			};
+			name = Release;
+		};
+		841F4C581EA135660051A6E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TP_lab5_3_PogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-PogodaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TP_lab5_3_Pogoda;
+			};
+			name = Debug;
+		};
+		841F4C591EA135660051A6E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TP_lab5_3_PogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boykodp.TP-lab5-3-PogodaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TP_lab5_3_Pogoda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841F4C1C1EA135660051A6E7 /* Build configuration list for PBXProject "TP_lab5_3_Pogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F4C4F1EA135660051A6E7 /* Debug */,
+				841F4C501EA135660051A6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F4C511EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_Pogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F4C521EA135660051A6E7 /* Debug */,
+				841F4C531EA135660051A6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F4C541EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_PogodaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F4C551EA135660051A6E7 /* Debug */,
+				841F4C561EA135660051A6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841F4C571EA135660051A6E7 /* Build configuration list for PBXNativeTarget "TP_lab5_3_PogodaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841F4C581EA135660051A6E7 /* Debug */,
+				841F4C591EA135660051A6E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		841F4C301EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				841F4C311EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodel */,
+			);
+			currentVersion = 841F4C311EA135660051A6E7 /* TP_lab5_3_Pogoda.xcdatamodel */;
+			path = TP_lab5_3_Pogoda.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 841F4C191EA135660051A6E7 /* Project object */;
+}
